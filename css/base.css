@@ -22,13 +22,8 @@ nav span:hover:after  {
 	animation: progressive 0.4s linear forwards;
 }
 @keyframes progressive {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 100%
-    }
+    from { width: 0; }
+    to { width: 100%; }
 }
 
 .info {
