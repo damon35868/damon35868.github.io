@@ -1,41 +1,19 @@
-header {
-	height: 400px;
-	background: linear-gradient(to right, #001f3f, #39CCCC);
+:root {
+  --main-color: #F59E0B;
 }
 
-nav span:after {
-	content: ' ';
-	position: absolute;
-	z-index: 2;
-	bottom: -2px;
-	left: 50%;
-	display: block;
-	width: 100%;
-	height: 2px;
-	transform: translate(-50%);
-}
-nav span:first-child{
-	border-bottom: 2px solid #7FDBFF;
-}
-nav span:hover{
-	color: #7FDBFF;
-}
-nav span:hover:after  {
-	border-bottom: 2px solid #7FDBFF;
-	animation: progressive 0.4s linear forwards;
-}
-@keyframes progressive {
-    from { width: 0; }
-    to { width: 100%; }
+.title{
+	color: var(--main-color);
 }
 
-.info {
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+header{
+	z-index: 888;
+	color: #999;
+	height: 60px;
+	/*background-color: var(--main-color);*/
 }
-
-main {
-	height: 400px;
-	background: linear-gradient(to right, #001f3f, #39CCCC);
+.button,
+nav p:hover{
+	color: #fff;
+	background-color: var(--main-color);
 }
