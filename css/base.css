@@ -2,7 +2,7 @@
   --main-color: #F59E0B;
 }
 .title{
-	color: var(--main-color);
+	color: var(--main-color)!important;
 	font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
